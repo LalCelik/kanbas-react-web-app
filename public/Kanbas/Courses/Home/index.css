@@ -1,0 +1,67 @@
+.button-red {
+    background-color: rgb(216, 50, 50); /* Green */
+    color: white;
+    border-radius: 4px;
+    padding: 8px 18px;
+  }
+
+  .button-gray {
+    background-color: rgb(207, 207, 207); /* Green */
+    color: black;
+    border-radius: 4px;
+    padding: 8px 18px;
+    border-style: none;
+    
+  }
+
+  .button-lines {
+    border-style: none;
+    background-color: white; /* Green */
+    color: red;
+    padding: 8px 10px;
+  }
+
+  ul.buttons {
+    list-style-type: none;
+  }
+
+  .button-gray-small {
+    background-color: rgb(207, 207, 207); /* Green */
+    color: black;
+    border-radius: 4px;
+    padding: 3px 10px;
+    border-style: none;
+    text-decoration: none;
+  }
+
+  ul li {
+    margin-bottom: 5px;
+}
+
+br {
+    margin-top:10px;
+}
+
+.black-link {
+    color:Black;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.red-link {
+    color:red;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+ul.list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  ul li.list {
+    padding: 8px 16px;
+    border-bottom: 1px solid gray;;
+  }
+  
+
