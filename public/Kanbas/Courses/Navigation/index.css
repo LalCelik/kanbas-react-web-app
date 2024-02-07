@@ -37,4 +37,13 @@
     height:20px;
     border-color: red;
   }
+
+  .wd-navigation-list {
+    color:red;
+    text-decoration: none;
+  }
+
+  ul {
+    list-style-type: none;
+  }
   

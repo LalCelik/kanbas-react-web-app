@@ -4,29 +4,31 @@
         <link rel="stylesheet" href="/Kanbas/Courses/Navigation/index.css" />
     <link rel="stylesheet" href="/libs/font-awesome/css/font-awesome.min.css"/>
     <link rel="stylesheet" href="/Kanbas/Courses/Home/index.css"/>
+    <link rel="stylesheet" href="/libs/bootstrap/bootstrap.min.css"/>
     </head>
     <body>
 
-        <table width="100%" style="table-layout: fixed; height: 60px; background-color:black">
-            <tr>
-                <td style="text-align:left">
-                    <div> 
-                        <a href="/Kanbas/Navigation/index.html">
-                    <button style="background:black; color:white"><i class="fa fa-bars fa-lg" aria-hidden="true"></i></button></a>
-                    </div>
-                </td>
-                <td style="text-align:center; color:white">
-                    CS4550
-                </td>
-                <td style="text-align:right">
-                    <a href="/Kanbas/Dashboard/screen.html">
-                        <button style="background:black; color:white"><i class="fa fa-eye"></i>
-                            <i class="fa fa-1x fa-close"></i></button></a>
-                </td>
-            </tr>
-        </table>
-
-            
+        <div class="d-md-none d-lg-none d-xl-none">
+            <table width="100%" style="table-layout: fixed; height: 60px; background-color:black">
+                <tr>
+                    <td style="text-align:left">
+                        <div> 
+                            <a href="/Kanbas/Navigation/index.html">
+                        <button style="background:black; color:white"><i class="fa fa-bars fa-lg" aria-hidden="true"></i></button></a>
+                        </div>
+                    </td>
+                    <td style="text-align:center; color:white">
+                        CS4550
+                    </td>
+                    <td style="text-align:right">
+                        <a href="/Kanbas/Dashboard/screen.html">
+                            <button style="background:black; color:white"><i class="fa fa-eye"></i>
+                                <i class="fa fa-1x fa-close"></i></button></a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="d-none d-md-block">
             <ul class="wd-navigation">
                 <li>
                   <a href="/Kanbas/Courses/Home/screen.html">
@@ -65,7 +67,74 @@
                     Syllabus</a></li>
                 <li><a href="/Kanbas/Courses/Settings/index.html">
                     Settings</a></li>
-            </ul> 
+            </ul>
+
+        </div>
+
+        <div class="d-md-none d-lg-none d-xl-none">
+            <ul class="wd-navigation-list">
+                <li>
+                  <a href="/Kanbas/Courses/Home/screen.html" class="wd-navigation-list">
+                    <i class="fa fa-home"></i>
+                    Home</a></li>
+                <li><a href="/Kanbas/Courses/Modules/screen.html" class="wd-navigation-list">
+                    <i class="fa fa-code"></i>
+                    Modules</a></li>
+                <li><a href="/Kanbas/Courses/Piazza/index.html" class="wd-navigation-list">
+                    <i class="fa fa-plug"></i>
+                    Piazza</a></li>
+                <li><a href="/Kanbas/Courses/Zoom/index.html" class="wd-navigation-list">
+                    <i class="fa fa-camera"></i>
+                    Zoom Meetings</a></li>
+                <li><a href="/Kanbas/Courses/Assignments/screen.html" class="wd-navigation-list">
+                    <i class="fa fa-newspaper-o"></i>
+                    Assignments</a></li>
+                <li><a href="/Kanbas/Courses/Quizzes/screen.html" class="wd-navigation-list">
+                    <i class="fa fa-space-shuttle"></i>
+                    Quizzes</a></li>
+                <li><a href="/Kanbas/Courses/Grades/screen.html" class="wd-navigation-list">
+                    <i class="fa fa-paperclip"></i>
+                    Grades</a></li>
+                <li><a href="/Kanbas/Courses/People/screen.html" class="wd-navigation-list">
+                    <i class="fa fa-user-circle"></i>
+                    People</a></li>
+                <li><a href="/Kanbas/Courses/Panopto Video/index.html" class="wd-navigation-list">
+                    <i class="fa fa-plug"></i>
+                    Panopto Video</a></li>
+                <li><a href="/Kanbas/Courses/Discussions/index.html" class="wd-navigation-list">
+                    <i class="fa fa-comment"></i>
+                    Discussions</a></li>
+                <li><a href="/Kanbas/Courses/Announcements/index.html" class="wd-navigation-list">
+                    <i class="fa fa-arrow-up"></i>
+                    Announcements</a></li>
+                <li><a href="/Kanbas/Courses/Pages/index.html" class="wd-navigation-list">
+                    <i class="fa fa-pagelines"></i>
+                    Pages</a></li>
+                <li><a href="/Kanbas/Courses/Files/index.html" class="wd-navigation-list">
+                    <i class="fa fa-paperclip"></i>
+                    Files</a></li>
+                <li><a href="/Kanbas/Courses/Rubrics/index.html" class="wd-navigation-list">
+                    <i class="fa fa-list"></i>
+                    Rubrics</a></li>
+                <li><a href="/Kanbas/Courses/Outcomes/index.html" class="wd-navigation-list">
+                    <i class="fa fa-bullseye"></i>
+                    Outcomes</a></li>
+                <li><a href="/Kanbas/Courses/Collaborations/index.html" class="wd-navigation-list">
+                    <i class="fa fa-circle"></i>
+                    Collaborations</a></li>
+                <li><a href="/Kanbas/Courses/Syllabus/index.html" class="wd-navigation-list">
+                    <i class="fa fa-list"></i>
+                    Syllabus</a></li>
+                <li><a href="/Kanbas/Courses/Settings/index.html" class="wd-navigation-list">
+                    <i class="fa fa-gear"></i>
+                    Settings</a></li>
+            </ul>
+
+        </div>
+
+
+        
+
             <!--
             <script>
                 document.write("Hello World")
