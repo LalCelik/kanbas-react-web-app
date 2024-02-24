@@ -8,20 +8,11 @@
   .wd-kanbas-navigation li {
     padding: 10px;     margin-bottom: 10px;
     font-size: 0.8em;  text-align: center;
-    color:red;
   }
   .wd-kanbas-navigation li.wd-active {
     background-color: white;
   }
-
   .wd-kanbas-navigation li.wd-active a {
-    color: red;
-  }
-
-  .wd-kanbas-navigation li.wd-inactive:hover {
-    background-color: white;
-  }
-  .wd-kanbas-navigation li.wd-inactive:hover a {
     color: red;
   }
 
@@ -33,14 +24,5 @@
     color: red;
     font-size: 2em;
     margin-bottom: 5px;
-  }
-
-  .button-gray {
-    background-color: rgb(207, 207, 207); /* Green */
-    color: black;
-    border-radius: 4px;
-    padding: 8px 18px;
-    border-style: none;
-    
   }
   
