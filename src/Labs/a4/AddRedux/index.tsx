@@ -1,7 +1,7 @@
 import { useSelector, useDispatch } from "react-redux";
 import { useState } from "react";
 import { add } from "./addReducer";
-import { LabState } from "/Users/lalcelikbilek/2024/spring/webdev/kanbas-react-web-app/src/Labs/store";
+import { LabState } from "../../store";
 function AddRedux() {
   const [a, setA] = useState(12);
   const [b, setB] = useState(23);
