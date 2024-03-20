@@ -1,10 +1,11 @@
 import React from "react";
 import { FaCheckCircle, FaEllipsisV, FaPlusCircle } from "react-icons/fa";
 import { Link, useParams } from "react-router-dom";
-import { assignments } from "../../Database";
+//import { assignments } from "../../Database"; //import assignment json
+import db from "../../Database";
 function Assignments() {
   const { courseId } = useParams();
-  const assignmentList = assignments.filter(
+  const assignmentList = db.assignments.filter( //filter assignmnets with that course id
     (assignment) => assignment.course === courseId);
   return (
     <>
@@ -29,7 +30,7 @@ function Assignments() {
             </span>
           </div>
           <ul className="list-group">
-            {assignmentList.map((assignment) => (
+            {assignmentList.map((assignment) => ( //from the list of assignments for this course
               <li className="list-group-item">
                 <FaEllipsisV className="me-2" />
                 <Link

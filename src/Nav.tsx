@@ -3,6 +3,8 @@ function Nav() {
   const { pathname } = useLocation();
   return (
     <nav className="nav nav-tabs mt-2">
+      <Link className="nav-link" to="/Labs/a4">
+       A4</Link>
       <Link to="/Labs/a3"
             className={`nav-link ${pathname.includes("a3") ? "active" : ""}`}>A3</Link>
       <Link to="/Kanbas"
