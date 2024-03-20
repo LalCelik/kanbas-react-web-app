@@ -1,7 +1,7 @@
 import React from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { addTodo, updateTodo, setTodo } from "./todosReducer";
-import { LabState } from "/Users/lalcelikbilek/2024/spring/webdev/kanbas-react-web-app/src/Labs/store";
+import { LabState } from "../../../store";
 
 function TodoForm(
 ) {
